@@ -4,7 +4,6 @@ import SwiftUI
 struct FeedView: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var posts: [PostModel] = []
-    @State private var posts: 
     @State private var isLoading = true
     @State private var errorMessage = ""
 
@@ -40,15 +39,17 @@ struct FeedView: View {
         errorMessage = ""
         
         PostDAO.shared.getPosts { result in
-            isLoading = false
-            
-            switch result {
-            case .success(let response):
-                self.posts = response.posts
-                print("Posts obtidos com sucesso")
-            case .failure(let error):
-                errorMessage = "Erro: \(error.localizedDescription)"
-                print("Erro ao buscar posts: \(error.localizedDescription)")
+            DispatchQueue.main.async {
+                isLoading = false
+                
+                switch result {
+                case .success(let response):
+                    self.posts = response.posts
+                    print("Posts obtidos com sucesso")
+                case .failure(let error):
+                    errorMessage = "Erro: \(error.localizedDescription)"
+                    print("Erro ao buscar posts: \(error.localizedDescription)")
+                }
             }
         }
     }
