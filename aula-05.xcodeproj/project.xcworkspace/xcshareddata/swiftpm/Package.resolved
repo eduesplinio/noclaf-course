@@ -1,0 +1,33 @@
+{
+  "originHash" : "bd14b7b9a2430b61aa6686bafb27c6d51fd9de98ac6186c3f7cbc8ae71fe43a6",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "state" : {
+        "revision" : "047aa81b77adcbf583a966dfef620d17650cc656",
+        "version" : "4.5.1"
+      }
+    },
+    {
+      "identity" : "swifthash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onmyway133/SwiftHash",
+      "state" : {
+        "revision" : "a900fc3f33c67eb33c9e650651edf6e23a410b3c",
+        "version" : "2.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
