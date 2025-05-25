@@ -1,4 +1,4 @@
-# Aula 05 - App iOS com SwiftUI
+# NoclafApp - App iOS com SwiftUI
 
 Este projeto é um aplicativo iOS desenvolvido em SwiftUI que demonstra a implementação de autenticação de usuários e gerenciamento de perfil.
 
@@ -28,23 +28,23 @@ Este projeto é um aplicativo iOS desenvolvido em SwiftUI que demonstra a implem
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/aula-05.git
+git clone https://github.com/seu-usuario/NoclafApp.git
 ```
 
 2. Instale as dependências:
 ```bash
-cd aula-05
+cd NoclafApp
 pod install
 ```
 
-3. Abra o arquivo `aula-05.xcworkspace` no Xcode
+3. Abra o arquivo `NoclafApp.xcworkspace` no Xcode
 
 4. Execute o projeto (⌘R)
 
 ## Estrutura do Projeto
 
 ```
-aula-05/
+NoclafApp/
 ├── Models/
 │   ├── API/
 │   │   └── UserModel.swift
@@ -118,4 +118,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - email@exemplo.com
 
-Link do Projeto: [https://github.com/seu-usuario/aula-05](https://github.com/seu-usuario/aula-05) 
+Link do Projeto: [https://github.com/seu-usuario/NoclafApp](https://github.com/seu-usuario/NoclafApp) 

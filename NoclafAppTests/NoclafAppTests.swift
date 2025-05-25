@@ -1,6 +1,6 @@
 //
-//  aula_04Tests.swift
-//  aula-04Tests
+//  NoclafAppTests.swift
+//  NoclafAppTests
 //
 //  Created by Eduardo Esplinio on 29/04/25.
 //

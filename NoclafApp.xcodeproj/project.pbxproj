@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,40 +19,28 @@
 			containerPortal = BF8108AB2DC1852C00BE6CB7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BF8108B22DC1852C00BE6CB7;
-			remoteInfo = "aula-04";
+			remoteInfo = NoclafApp;
 		};
 		BF8108CB2DC1852F00BE6CB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BF8108AB2DC1852C00BE6CB7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BF8108B22DC1852C00BE6CB7;
-			remoteInfo = "aula-04";
+			remoteInfo = NoclafApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BF41CEFD2DCADB5400CD273D /* like.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
-		BF8108B32DC1852C00BE6CB7 /* aula-05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aula-05.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF8108C02DC1852F00BE6CB7 /* aula-05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aula-05Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF8108CA2DC1852F00BE6CB7 /* aula-05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aula-05UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8108B32DC1852C00BE6CB7 /* NoclafApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoclafApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8108C02DC1852F00BE6CB7 /* NoclafAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoclafAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8108CA2DC1852F00BE6CB7 /* NoclafAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoclafAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BF8108B52DC1852C00BE6CB7 /* aula-05 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "aula-05";
-			sourceTree = "<group>";
-		};
-		BF8108C32DC1852F00BE6CB7 /* aula-05Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "aula-05Tests";
-			sourceTree = "<group>";
-		};
-		BF8108CD2DC1852F00BE6CB7 /* aula-05UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "aula-05UITests";
-			sourceTree = "<group>";
-		};
+		BF8108B52DC1852C00BE6CB7 /* NoclafApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NoclafApp; sourceTree = "<group>"; };
+		BF8108C32DC1852F00BE6CB7 /* NoclafAppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NoclafAppTests; sourceTree = "<group>"; };
+		BF8108CD2DC1852F00BE6CB7 /* NoclafAppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NoclafAppUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +74,9 @@
 		BF8108AA2DC1852C00BE6CB7 = {
 			isa = PBXGroup;
 			children = (
-				BF8108B52DC1852C00BE6CB7 /* aula-05 */,
-				BF8108C32DC1852F00BE6CB7 /* aula-05Tests */,
-				BF8108CD2DC1852F00BE6CB7 /* aula-05UITests */,
+				BF8108B52DC1852C00BE6CB7 /* NoclafApp */,
+				BF8108C32DC1852F00BE6CB7 /* NoclafAppTests */,
+				BF8108CD2DC1852F00BE6CB7 /* NoclafAppUITests */,
 				BF8108B42DC1852C00BE6CB7 /* Products */,
 				BF41CEFD2DCADB5400CD273D /* like.json */,
 			);
@@ -97,9 +85,9 @@
 		BF8108B42DC1852C00BE6CB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF8108B32DC1852C00BE6CB7 /* aula-05.app */,
-				BF8108C02DC1852F00BE6CB7 /* aula-05Tests.xctest */,
-				BF8108CA2DC1852F00BE6CB7 /* aula-05UITests.xctest */,
+				BF8108B32DC1852C00BE6CB7 /* NoclafApp.app */,
+				BF8108C02DC1852F00BE6CB7 /* NoclafAppTests.xctest */,
+				BF8108CA2DC1852F00BE6CB7 /* NoclafAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF8108B22DC1852C00BE6CB7 /* aula-05 */ = {
+		BF8108B22DC1852C00BE6CB7 /* NoclafApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF8108D42DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "aula-05" */;
+			buildConfigurationList = BF8108D42DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "NoclafApp" */;
 			buildPhases = (
 				BF8108AF2DC1852C00BE6CB7 /* Sources */,
 				BF8108B02DC1852C00BE6CB7 /* Frameworks */,
@@ -120,21 +108,21 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BF8108B52DC1852C00BE6CB7 /* aula-05 */,
+				BF8108B52DC1852C00BE6CB7 /* NoclafApp */,
 			);
-			name = "aula-05";
+			name = NoclafApp;
 			packageProductDependencies = (
 				BF41CEF72DCACFF600CD273D /* Lottie */,
 				BFC571E12DD40CC500CBC488 /* Alamofire */,
 				BFC571E42DD40D6F00CBC488 /* SwiftHash */,
 			);
-			productName = "aula-04";
-			productReference = BF8108B32DC1852C00BE6CB7 /* aula-05.app */;
+			productName = NoclafApp;
+			productReference = BF8108B32DC1852C00BE6CB7 /* NoclafApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF8108BF2DC1852F00BE6CB7 /* aula-05Tests */ = {
+		BF8108BF2DC1852F00BE6CB7 /* NoclafAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF8108D72DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "aula-05Tests" */;
+			buildConfigurationList = BF8108D72DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "NoclafAppTests" */;
 			buildPhases = (
 				BF8108BC2DC1852F00BE6CB7 /* Sources */,
 				BF8108BD2DC1852F00BE6CB7 /* Frameworks */,
@@ -146,18 +134,18 @@
 				BF8108C22DC1852F00BE6CB7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BF8108C32DC1852F00BE6CB7 /* aula-05Tests */,
+				BF8108C32DC1852F00BE6CB7 /* NoclafAppTests */,
 			);
-			name = "aula-05Tests";
+			name = NoclafAppTests;
 			packageProductDependencies = (
 			);
-			productName = "aula-04Tests";
-			productReference = BF8108C02DC1852F00BE6CB7 /* aula-05Tests.xctest */;
+			productName = NoclafAppTests;
+			productReference = BF8108C02DC1852F00BE6CB7 /* NoclafAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BF8108C92DC1852F00BE6CB7 /* aula-05UITests */ = {
+		BF8108C92DC1852F00BE6CB7 /* NoclafAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF8108DA2DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "aula-05UITests" */;
+			buildConfigurationList = BF8108DA2DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "NoclafAppUITests" */;
 			buildPhases = (
 				BF8108C62DC1852F00BE6CB7 /* Sources */,
 				BF8108C72DC1852F00BE6CB7 /* Frameworks */,
@@ -169,13 +157,13 @@
 				BF8108CC2DC1852F00BE6CB7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BF8108CD2DC1852F00BE6CB7 /* aula-05UITests */,
+				BF8108CD2DC1852F00BE6CB7 /* NoclafAppUITests */,
 			);
-			name = "aula-05UITests";
+			name = NoclafAppUITests;
 			packageProductDependencies = (
 			);
-			productName = "aula-04UITests";
-			productReference = BF8108CA2DC1852F00BE6CB7 /* aula-05UITests.xctest */;
+			productName = NoclafAppUITests;
+			productReference = BF8108CA2DC1852F00BE6CB7 /* NoclafAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +189,8 @@
 					};
 				};
 			};
-			buildConfigurationList = BF8108AE2DC1852C00BE6CB7 /* Build configuration list for PBXProject "aula-05" */;
+			buildConfigurationList = BF8108AE2DC1852C00BE6CB7 /* Build configuration list for PBXProject "NoclafApp" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -215,14 +204,13 @@
 				BFC571E02DD40CC500CBC488 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				BFC571E32DD40D6F00CBC488 /* XCRemoteSwiftPackageReference "SwiftHash" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = BF8108B42DC1852C00BE6CB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF8108B22DC1852C00BE6CB7 /* aula-05 */,
-				BF8108BF2DC1852F00BE6CB7 /* aula-05Tests */,
-				BF8108C92DC1852F00BE6CB7 /* aula-05UITests */,
+				BF8108B22DC1852C00BE6CB7 /* NoclafApp */,
+				BF8108BF2DC1852F00BE6CB7 /* NoclafAppTests */,
+				BF8108C92DC1852F00BE6CB7 /* NoclafAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,12 +267,12 @@
 /* Begin PBXTargetDependency section */
 		BF8108C22DC1852F00BE6CB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF8108B22DC1852C00BE6CB7 /* aula-05 */;
+			target = BF8108B22DC1852C00BE6CB7 /* NoclafApp */;
 			targetProxy = BF8108C12DC1852F00BE6CB7 /* PBXContainerItemProxy */;
 		};
 		BF8108CC2DC1852F00BE6CB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF8108B22DC1852C00BE6CB7 /* aula-05 */;
+			target = BF8108B22DC1852C00BE6CB7 /* NoclafApp */;
 			targetProxy = BF8108CB2DC1852F00BE6CB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eduesplinio.aula-04";
+				PRODUCT_BUNDLE_IDENTIFIER = eduesplinio.NoclafApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -460,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eduesplinio.aula-04";
+				PRODUCT_BUNDLE_IDENTIFIER = eduesplinio.NoclafApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -478,12 +466,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eduesplinio.aula-04Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = eduesplinio.NoclafAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aula-05.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aula-05";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoclafApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoclafApp";
 			};
 			name = Debug;
 		};
@@ -496,12 +484,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eduesplinio.aula-04Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = eduesplinio.NoclafAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aula-05.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aula-05";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoclafApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoclafApp";
 			};
 			name = Release;
 		};
@@ -512,12 +500,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eduesplinio.aula-04UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = eduesplinio.NoclafAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "aula-04";
+				TEST_TARGET_NAME = NoclafApp;
 			};
 			name = Debug;
 		};
@@ -528,19 +516,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eduesplinio.aula-04UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = eduesplinio.NoclafAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "aula-04";
+				TEST_TARGET_NAME = NoclafApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF8108AE2DC1852C00BE6CB7 /* Build configuration list for PBXProject "aula-05" */ = {
+		BF8108AE2DC1852C00BE6CB7 /* Build configuration list for PBXProject "NoclafApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF8108D22DC1852F00BE6CB7 /* Debug */,
@@ -549,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF8108D42DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "aula-05" */ = {
+		BF8108D42DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "NoclafApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF8108D52DC1852F00BE6CB7 /* Debug */,
@@ -558,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF8108D72DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "aula-05Tests" */ = {
+		BF8108D72DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "NoclafAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF8108D82DC1852F00BE6CB7 /* Debug */,
@@ -567,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF8108DA2DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "aula-05UITests" */ = {
+		BF8108DA2DC1852F00BE6CB7 /* Build configuration list for PBXNativeTarget "NoclafAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF8108DB2DC1852F00BE6CB7 /* Debug */,

@@ -1,13 +1,13 @@
 //
-//  aula_04UITestsLaunchTests.swift
-//  aula-04UITests
+//  NoclafAppUITestsLaunchTests.swift
+//  NoclafAppUITests
 //
 //  Created by Eduardo Esplinio on 29/04/25.
 //
 
 import XCTest
 
-final class aula_04UITestsLaunchTests: XCTestCase {
+final class NoclafAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
